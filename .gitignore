@@ -1,0 +1,4 @@
+\*log
+nohup.out
+/nvim/.config/nvim/plugin
+tmux/.config/tmux/plugins
