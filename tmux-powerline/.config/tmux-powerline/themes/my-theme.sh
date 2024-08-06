@@ -110,11 +110,11 @@ if [ -z "$TMUX_POWERLINE_LEFT_STATUS_SEGMENTS" ]; then
 		#"lan_ip 24 255 ${TMUX_POWERLINE_SEPARATOR_RIGHT_THIN}"
 		#"vpn 24 255 ${TMUX_POWERLINE_SEPARATOR_RIGHT_THIN}"
 		#"wan_ip 24 255"
-		"vcs_branch 29 88"
-		"vcs_compare 60 255"
-		#"vcs_staged 64 255"
-		"vcs_modified 9 255"
-		"vcs_others 245 0"
+		"vcs_branch 155 88"
+		"vcs_compare 75 255"
+		"vcs_staged 75 255"
+		"vcs_modified 75 255"
+		"vcs_others 75 0"
 	)
 fi
 
@@ -122,7 +122,7 @@ fi
 if [ -z "$TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS" ]; then
 	TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS=(
 		#"earthquake 3 0"
-		"pwd 89 211"
+		"pwd 215 237"
 		#"macos_notification_count 29 255"
 		#"mailcount 9 255"
 		#"now_playing 234 37"
