@@ -1,0 +1,13 @@
+[user]
+	email = lucsack@gmail.com
+	name = bruce
+[credential]
+	helper = 
+	helper = /usr/local/bin/git-credential-manager
+	credentialStore = gpg
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[push]
+	autoSetupRemote = true
+[init]
+	defaultBranch = main
