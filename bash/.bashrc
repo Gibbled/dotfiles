@@ -35,8 +35,6 @@ PATH=${PATH}:${HOME}/bin:/home/ranjit/.local/bin
 export PATH="/usr/lib/ccache/bin${PATH:+:}$PATH"
 export CCACHE_DIR="/var/cache/ccache"
 
-# added by Anaconda2 installer
-#export PATH="/home/ranjit/anaconda2/bin:$PATH"
 export GPG_TTY=/dev/pts/2
 gpg-connect-agent updatestartuptty /bye
 unset SSH_AGENT_PID
