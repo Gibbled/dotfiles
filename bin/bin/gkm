@@ -1,0 +1,5 @@
+#!/bin/sh
+#Compile the kernel with the same config as the running kernel
+
+
+sudo genkernel --menuconfig --kernel-config=/proc/config.gz all
