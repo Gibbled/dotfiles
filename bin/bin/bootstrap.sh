@@ -15,3 +15,5 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 tpm(){
 git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
 }
+
+main
