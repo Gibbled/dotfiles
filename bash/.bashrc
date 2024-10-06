@@ -67,4 +67,4 @@ PAGER=less LESS=R
 export NPM_CONFIG_PREFIX=$HOME/.local/
 export PATH="/home/$USER/go/bin:/home/$USER/.local/bin:$NPM_CONFIG_PREFIX/bin:$PATH"
 
-clear && /usr/bin/neofetch
+clear && `which neofetch`
